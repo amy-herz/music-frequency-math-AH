@@ -3,6 +3,7 @@ import { PolySynth } from 'tone';
 //import ReactDOM from 'react-dom';
 import 'bootswatch/dist/solar/bootstrap.min.css'; 
 import './App.css';
+require('dotenv').config();
 
 class App extends Component {
 
@@ -353,7 +354,8 @@ class Results extends Component {
   
 }
 */
-var port = process.env.PORT || 8080;
-App.listen(port, () => console.log('Server is listening on port ' + {port}));
+
+//const PORT = process.env.PORT || 8080;
+//App.listen(PORT, () => console.log('Server is listening on port ${PORT}'));
 
 export default App;
