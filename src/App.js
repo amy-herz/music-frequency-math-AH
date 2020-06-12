@@ -5,7 +5,7 @@ import 'bootswatch/dist/solar/bootstrap.min.css';
 import './App.css';
 
 class App extends Component {
-  
+
   render() {
     return(
       <div>
@@ -353,5 +353,7 @@ class Results extends Component {
   
 }
 */
+var port = process.env.PORT || 8080;
+App.listen(port, () => console.log('Server is listening on port ' + {port}));
 
 export default App;
