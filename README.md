@@ -1,4 +1,6 @@
 Coding challenge for Amy Herz applying to Go Nimbly!
+Access the Heroku production version here: https://amyherz-music-frequency-math.herokuapp.com
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
